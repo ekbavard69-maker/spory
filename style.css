@@ -95,6 +95,9 @@ p{margin:0 0 1.1em}
 /* ---------- Герой ---------- */
 .hero{padding:72px 0 20px}
 .hero h1{max-width:22ch}
+.hero h1.hero-q{max-width:20ch;margin:0 0 .28em;text-wrap:balance}
+.hero .hero-sub{font-family:var(--display);font-weight:400;font-size:clamp(18px,2.2vw,26px);line-height:1.25;color:var(--ink-soft);max-width:34ch;margin:0 0 1.1em}
+@media (max-width:640px){.hero h1.hero-q{max-width:14ch}.hero .hero-sub{font-size:18px;max-width:22ch;margin-bottom:1em}}
 .hero .lead{max-width:56ch}
 
 /* СИГНАТУРА: процессуальный коридор */
